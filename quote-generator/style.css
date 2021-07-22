@@ -31,9 +31,9 @@ body {
 h2 {
 	text-align: left;
 	font-family: "Montserrat", serif;
-	/* font-weight: 800; */
 }
-.quote-text {
+
+.quote-text-container {
 	font-size: 1.5rem;
 }
 
@@ -45,10 +45,14 @@ h2 {
 	font-size: 1.5rem;
 }
 
-.quote-author {
+.quote-author-container {
 	margin: 1rem;
 	font-weight: 100;
 	text-align: right;
+}
+
+.long-quote{
+	font-size: 1.2rem;
 }
 
 .button-container {
