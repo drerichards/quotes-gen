@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap");
 
 html {
 	box-sizing: border-box;
@@ -9,7 +9,7 @@ body {
 	margin: 0;
 	min-height: 100vh;
 	background-color: #cdd9dd;
-	font-family: 'Montserrat', serif;
+	font-family: "Montserrat", serif;
 	color: #000;
 	text-align: center;
 	background-color: #e3e3e3;
@@ -28,20 +28,26 @@ body {
 	border: 4px solid rgba(1, 22, 39, 0.75);
 }
 
+h2 {
+	text-align: left;
+	font-family: "Montserrat", serif;
+	/* font-weight: 800; */
+}
 .quote-text {
 	font-size: 1.5rem;
 }
 
 #quote {
-	font-family: 'Architects Daughter', cursive;
+	font-family: "Architects Daughter", cursive;
 }
 
 .fa-quote-left {
-	font-size: 2rem;
+	font-size: 1.5rem;
 }
 
 .quote-author {
 	margin: 1rem;
+	font-weight: 100;
 	text-align: right;
 }
 
@@ -60,6 +66,7 @@ button {
 	background: #333;
 	outline: none;
 	padding: 0.5rem 1.8rem;
+	transition-duration: .15s;
 	box-shadow: 0 0.3rem rgba(121, 121, 121, 0.65);
 }
 
@@ -69,7 +76,7 @@ button:hover {
 
 button:active {
 	transform: translate(0, 0.05rem);
-	box-shadow: 0 0.3rem rgba(230, 230, 230, 0.65);
+	box-shadow: 0 0.1rem rgba(230, 230, 230, 0.65);
 }
 
 .twitter-button:hover {
