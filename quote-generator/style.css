@@ -23,9 +23,9 @@ body {
 	margin: 10% auto;
 	flex-direction: column;
 	border-radius: 10px;
-	background-color: rgba(255, 255, 255, 0.95);
-	box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
-	border: 4px solid rgba(1, 22, 39, 0.75);
+	background-color: #fffffff2;
+	box-shadow: 0 10px 10px 10px #00000033;
+	border: 4px solid #011627bf;
 }
 
 h2 {
@@ -71,7 +71,7 @@ button {
 	outline: none;
 	padding: 0.5rem 1.8rem;
 	transition-duration: .15s;
-	box-shadow: 0 0.3rem rgba(121, 121, 121, 0.65);
+	box-shadow: 0 0.3rem #797979a6;
 }
 
 button:hover {
@@ -80,7 +80,7 @@ button:hover {
 
 button:active {
 	transform: translate(0, 0.05rem);
-	box-shadow: 0 0.1rem rgba(230, 230, 230, 0.65);
+	box-shadow: 0 0.1rem #e6e6e6a6;
 }
 
 .twitter-button:hover {
@@ -89,6 +89,23 @@ button:active {
 
 .fa-twitter {
 	font-size: 1.15rem;
+}
+
+.loader {
+	border: 16px solid #f3f3f3;
+	border-top: 16px solid #011627bf;
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+	animation: spin 2s linear infinite;
+	position: absolute;
+    top: 15%;
+    left: 40%;
+}
+
+@keyframes spin {
+	0% { transform: rotate(0deg);}
+	100% { transform: rotate(360deg);}
 }
 
 /* @media screen and (max-width: 1000px) {
